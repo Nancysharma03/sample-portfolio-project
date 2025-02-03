@@ -1,0 +1,389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*
+/* (*)it is used to make all the default tab settings to the one we required */
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+    /* background-color:rgb(202, 193, 193); */
+    height: 70px;
+    display: flex;
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding:0px 10%;
+    justify-content: space-between;
+
+
+}
+.logo
+{
+    width: 10%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav
+{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+}
+.nav-links
+{
+    height: 70px;
+    width: 100%;
+    /* background-color: red; */
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+/* banner css */
+
+.banner
+{
+    width: 100%;
+    height: 400px;
+    background-image: rgb(202, 193, 193);
+    /* padding: 30px 5%; which means 30px top and bottom 5% left and right */
+    display: flex;
+    align-items: top;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+.details
+{
+    width: 60%;
+    height: 20px;
+    /* background-color: rgb(202, 193, 193); */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.t1
+{
+    font-size: 60px;
+    /* color: white;
+    margin-top: 100px; */
+}
+.t2
+{
+    font-size: 70px;
+    font-weight: 700;/* bold */
+    color: rgb(128, 73, 196);
+}
+.t3
+{
+    font-size: 20px;
+    /* color: white; */
+}
+.btn
+{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(128, 73, 196);
+    color: rgb(202, 193, 193);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: 2px solid rgb(128, 73, 196);
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;/* to change the cursor to pointer */
+    transition: all 0.2s ease;
+}
+.btn:hover
+{
+    background-color: transparent;
+    color: rgb(128, 73, 196);
+}
+.image
+{
+     width: 150px;
+     height: 200px;
+     background-color: rgb(128, 73, 196); 
+     display: flex;
+     justify-content: center;
+     align-items: side; 
+     padding: 0px;
+    }
+    .person-img
+    {
+        /* width: 100%;  */
+        height: 300px;
+        align-self: side;
+        object-fit: cover; 
+}
+/* services css */
+.section-heading
+{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(202, 193, 193); */
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    padding-left: 10%;/* which means 30px top and bottom 5% left and right */
+    padding-right: 10%;/* which means 30px top and bottom 5% left and right */
+    font-family: 'Montserrat', sans-serif;
+}
+.services
+{
+    width: 100%;
+    /* height: 500px; */
+    background-color: rgb(202, 193, 193);
+    display: flex;
+    align-items: center;
+    padding:30px 10%;/* which means 30px top and bottom 5% left and right */
+    
+}
+.service
+{
+    width: 22%;
+    height: 400px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    padding-top: 5px;
+}
+.icon
+{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    /* background-color: rgb(128, 73, 196); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+
+}
+/* achivements css */
+.achievement-heading
+{
+    width: 25%;
+    height: 100px;
+    /* background-color: rgb(202, 193, 193); */
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    /* font-weight: 700;   */
+    padding-left: 10%;/* which means 30px top and bottom 5% left and right */
+    padding-right: 10%;/* which means 30px top and bottom 5% left and right */
+    font-family: 'Montserrat', sans-serif;
+}
+.achievements-section
+{
+    width: 100%;
+    height: 350px;
+    /* background-color: rgb(24, 147, 69); */
+    display: flex;
+    align-items: center;
+    padding-top:30px ;
+    padding-bottom: 30px;
+}
+.achievements
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(159, 18, 18); */
+    display: flex;
+    align-items: center;
+    padding:30px 5%;/* which means 30px top and bottom 5% left and right */
+}
+.achievement
+{
+    width: 22%;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+    padding-top: 5px;
+}
+
+/* quote css*/
+.quote
+{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-image: url(./image.png);
+    /* background-color: rgb(202, 193, 193); */
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;/* which means 30px top and bottom 5% left and right */
+}
+.overlay
+{
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    padding:0px 10%;/* which means 30px top and bottom 5% left and right */
+}
+.quote-area
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(202, 193, 193); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 30px 0px;
+}
+.quote-input
+{
+    width: 60%;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-indent: 20px;
+}
+::placeholder
+{
+    color: white;/* to change the color of placeholder as it cannot be given in input*/
+}
+/* client css */
+
+.clients
+{
+    /* width: 100%;
+    height: 300px; */
+    display: flex;
+    background-color: white;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+    padding: 30px 10%;
+    
+}
+.client-img
+{
+    width: 12%;
+    /* filter:grayscale(100%); */
+    /* transition: all 0.2s ease; */
+    cursor: pointer;
+     
+}
+.client-img:hover
+{
+    /* filter:grayscale(0%); */
+    transform: scale(1.1);
+}
+
+
+/* footer css */
+.footer {
+    width: 100%;
+    background-color: rgb(51, 49, 54);
+    display: flex;
+    justify-content: space-around; /* Even space between items */
+    padding: 30px 10%;
+    flex-wrap: wrap; /* For responsiveness */
+}
+
+.footer-child {
+    width: 80%; /* Increased for better spacing */
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    align-items: flex-start; /* Align items to the left */
+}
+
+.footer-links,
+.footer-contact {
+    width: 50%; /* Equal width for both */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* Proper alignment under headings */
+}
+
+h3 {
+    margin-bottom: 10px;
+    color: lightgray;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.links {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.links:hover {
+    transform: scale(1.1);
+    color: rgb(208, 206, 209);
+}
+
+.map {
+    width: 60%;
+    /* background-color: rgb(202, 193, 193); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+}
+
+/* Responsive Footer */
+@media (max-width: 768px)/* for mobile view */
+{
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-child, .map {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+.footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-child, .map {
+        width: 100%;
+        align-items: center;
+    }
+
